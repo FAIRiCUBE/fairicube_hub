@@ -1,0 +1,282 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+    color: #0c4d6a;
+    font-weight: 700;
+}
+
+a:hover,
+a:focus {
+    color: #208080;
+}
+
+a {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.paragraph {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.post-header {
+    margin-bottom: 30px;
+    /* override header above so the datetime is under the title */
+    display: block;
+}
+
+.logo-search {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* SEARCH BOX / BUTTON */
+
+.search-box {
+    padding: 5px;
+    border: 1px solid #0c4d6a;
+    border-radius: 3px;
+    width: 250px;
+    color: #0c4d6a;
+    margin-left: 40px;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button i {
+    pointer-events: none;
+    /* Prevent icon from intercepting clicks */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+}
+
+nav ul li {
+    margin-left: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover,
+nav ul li .dropbtn:hover {
+    background-color: #d9f3ff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #0c4d6a;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #d9f3ff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.main-frame-container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 500px;
+    position: relative;
+
+    /* Flexbox stuff */
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+
+    /* Background styles */
+    background-image: linear-gradient(#208080A0, #208080A0), url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text-center {
+    padding-top: 150px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.hero-title {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.site-footer {
+    background: #208080;
+    color: #fff;
+}
+
+.footer-heading,
+.footer-col-wrapper,
+.u-email,
+.u-email:hover {
+    color: #fff;
+}
+
+.footer-links li a, .footer-links {
+    color: #fff;
+}
+
+.footer-links li a:hover, .footer-links:hover {
+    color: #fff;
+}
+
+.svg-icon {
+    color: white;
+    fill: white;
+    width: 24px;
+}
+
+.credits {
+    font-size: small;
+    text-align: center;
+}
+
+/* ==============================
+   Cards
+   ============================== */
+
+.cards-paragraph {
+    margin: 50px 0px;
+    overflow: hidden;
+    padding: 0;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+}
+
+.card-item {
+    height: 430px !important;
+}
+
+.card-item a img {
+    padding-top: 30px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.card-item h3 {
+    padding-top: 10px;
+}
+
+.card-item p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.cards-page-title {
+    text-align: center;
+}
