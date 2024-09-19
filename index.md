@@ -15,7 +15,7 @@ layout: default
                     <div class="gallery portfolio-grid portfolio-animation-std products-carousel-itself">
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="{{ "catalog" | relative_url }}">
+                                <a href="{{ "catalog.html" | relative_url }}">
                                     <img src="{{ "images/datacubes.jpeg" | relative_url }}" alt="Datacubes Catalog">
                                 </a>
                                 <h3>Catalog</h3>
@@ -26,7 +26,7 @@ layout: default
                         </div>
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="{{ "analytics" | relative_url }}.html">
+                                <a href="{{ "analytics.html" | relative_url }}.html">
                                     <img src="{{ "images/analytics.jpeg" | relative_url }}" alt="Analytics">
                                 </a>
                                 <h3>Analytics</h3>
@@ -37,7 +37,7 @@ layout: default
                         </div>
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="{{ "docs" | relative_url }}">
+                                <a href="{{ "docs.html" | relative_url }}">
                                     <img src="{{ "images/docs.jpeg" | relative_url }}" alt="Knowledge Base">
                                 </a>
                                 <h3>Knowledge Base</h3>
