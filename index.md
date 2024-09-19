@@ -26,7 +26,7 @@ layout: default
                         </div>
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="{{ "analytics.html" | relative_url }}.html">
+                                <a href="{{ "analytics.html" | relative_url }}">
                                     <img src="{{ "images/analytics.jpeg" | relative_url }}" alt="Analytics">
                                 </a>
                                 <h3>Analytics</h3>
