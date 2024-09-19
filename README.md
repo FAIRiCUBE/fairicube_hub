@@ -1,6 +1,6 @@
 # FAIRiCUBE-Hub website
 
-This repository contains the code for https://hub.fairicube.eu.
+This repository contains the code for https://hub.fairicube.eu (not operational yet).
 
 ## Build
 
