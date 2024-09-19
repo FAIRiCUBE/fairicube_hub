@@ -16,6 +16,7 @@ To build it, it's necessary to first install Jekyll
     source ~/.bashrc
 
     gem install jekyll bundler
+    bundle install
 
 Then it can be built with `bin/build.sh`, which generates the HTML in
 the `_site/` subdirectory.
