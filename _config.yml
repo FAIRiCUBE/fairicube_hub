@@ -25,9 +25,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   (Findable, Accessible, Interoperable, Reusable) datacubes. Our goal is to
   empower researchers, data scientists, and industry experts with standardized, 
   analysis-ready datacubes that are fully compliant with F.A.I.R. principles.
-
-  This project has received funding from the Horizon Europe programme under 
-  grant agreement No 101059238.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FAIRiCUBE
