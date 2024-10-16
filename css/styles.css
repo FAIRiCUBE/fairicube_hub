@@ -111,15 +111,16 @@ nav ul li {
     position: relative;
 }
 
-nav ul li a {
+nav ul li a,
+nav ul li a:visited {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
 }
 
-nav ul li a:visited {
-    color: white;
+nav ul li a:visited:hover {
+    color: #208080;
 }
 
 nav ul li a:hover,
@@ -138,7 +139,9 @@ nav ul li .dropbtn:hover {
     z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content a,
+.dropdown-content a:visited,
+.dropdown-content a:visited:hover {
     color: #0c4d6a;
     padding: 10px 15px;
     text-decoration: none;
