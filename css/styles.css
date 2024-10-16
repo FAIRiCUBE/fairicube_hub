@@ -118,6 +118,10 @@ nav ul li a {
     display: block;
 }
 
+nav ul li a:visited {
+    color: white;
+}
+
 nav ul li a:hover,
 nav ul li .dropbtn:hover {
     background-color: #d9f3ff;
