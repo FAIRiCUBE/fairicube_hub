@@ -1,8 +1,8 @@
 #!/bin/bash
 # To be executed on the hub.fairicube.eu server.
 
-www_dir="/home/fairicube/public_html"
-git_dir="/home/fairicube/fairicube_hub"
+www_dir="/home/fairicube_hub/public_html"
+git_dir="/home/fairicube_hub/fairicube_hub"
 
 pushd "$git_dir" || exit 1
 
