@@ -190,7 +190,7 @@ iframe {
     align-items: center;
 
     /* Background styles */
-    background-image: linear-gradient(#208080A0, #208080A0), url('../images/hero.jpg');
+    background-image: linear-gradient(#208080A0, #208080A0), url('../images/hero2.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
