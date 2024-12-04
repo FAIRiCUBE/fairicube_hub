@@ -42,7 +42,7 @@ layout: default
                                 </a>
                                 <h3>Knowledge Base</h3>
                                 <p>
-                                    A set of tools to enable appropriate knowledge of how to apply algorithms and ML techniques to solve similar demands.
+                                    Access project information and Knowledge Base services.
                                 </p>
                             </figure>
                         </div>
