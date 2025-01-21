@@ -44,7 +44,7 @@ layout: default
                         </div>
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="" target="_blank">
+                                <a href="https://fic-chatbot-v2-1061322294515.us-central1.run.app/" target="_blank">
                                     <img src="{{ "images/chatbot.png" | relative_url }}" alt="Chatbot">
                                 </a>
                                 <h3>Chatbot</h3>
