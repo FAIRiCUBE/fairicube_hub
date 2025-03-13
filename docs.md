@@ -33,7 +33,7 @@ layout: default
                         </div>
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="https://fairicube-kb.dev.epsilon-italia.it/" target="_blank">
+                                <a href="https://fairicube-kb.epsilon-italia.it/" target="_blank">
                                     <img src="{{ "images/knowledge-base.png" | relative_url }}" alt="Query Tool">
                                 </a>
                                 <h3>Query Tool</h3>
