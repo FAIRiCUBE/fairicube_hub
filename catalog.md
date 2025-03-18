@@ -11,7 +11,7 @@ layout: default
                     <div class="gallery portfolio-grid portfolio-animation-std products-carousel-itself">
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="https://catalog.eoxhub.fairicube.eu/" target="main-frame">
+                                <a href="https://catalog.eoxhub.fairicube.eu/" target="_blank">
                                     <img src="{{ "images/catalog.png" | relative_url }}" alt="Datacubes Catalog">
                                 </a>
                                 <h3>Catalog</h3>
@@ -22,7 +22,7 @@ layout: default
                         </div>
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="https://catalog-editor.eoxhub.fairicube.eu/" target="main-frame">
+                                <a href="https://catalog-editor.eoxhub.fairicube.eu/" target="_blank">
                                     <img src="{{ "images/catalog-editor.png" | relative_url }}" alt="Catalog Editor">
                                 </a>
                                 <h3>Catalog Editor</h3>
@@ -33,7 +33,7 @@ layout: default
                         </div>
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="https://fairicube-md.epsilon-italia.it/" target="main-frame">
+                                <a href="https://fairicube-md.epsilon-italia.it/" target="_blank">
                                     <img src="{{ "images/resource-metadata-forms.png" | relative_url }}" alt="Resource Metadata Forms">
                                 </a>
                                 <h3>Resource Metadata Forms</h3>

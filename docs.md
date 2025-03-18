@@ -11,7 +11,7 @@ layout: default
                     <div class="gallery portfolio-grid portfolio-animation-std products-carousel-itself">
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="https://fairicube.nilu.no/" target="main-frame">
+                                <a href="https://fairicube.nilu.no/" target="_blank">
                                     <img src="{{ "images/project-info.png" | relative_url }}" alt="FAIRiCUBE Project">
                                 </a>
                                 <h3>Project Information</h3>
