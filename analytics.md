@@ -9,7 +9,7 @@ layout: default
             <div class="row">
                 <div class="col-xs-12 products-carousel">
                     <div class="gallery portfolio-grid portfolio-animation-std products-carousel-itself">
-                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <figure class="gallery-item shop-item card-item">
                                 <a href="https://fairicube.rasdaman.com/rasdaman-dashboard/" target="_blank">
                                     <img src="{{ "images/rasdaman-dashboard.webp" | relative_url }}" alt="rasdaman dashboard">
@@ -20,7 +20,7 @@ layout: default
                                 </p>
                             </figure>
                         </div>
-                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <figure class="gallery-item shop-item card-item">
                                 <a href="https://fairicube.rasdaman.com/jhub/" target="_blank">
                                     <img src="{{ "images/rasdaman-jupyterlab.png" | relative_url }}" alt="rasdaman JupyterLab">
@@ -31,7 +31,7 @@ layout: default
                                 </p>
                             </figure>
                         </div>
-                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <figure class="gallery-item shop-item card-item">
                                 <a href="https://eoxhub.fairicube.eu/" target="_blank">
                                     <img src="{{ "images/eox-lab.webp" | relative_url }}" alt="EOX Lab">
@@ -42,7 +42,7 @@ layout: default
                                 </p>
                             </figure>
                         </div>
-                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <figure class="gallery-item shop-item card-item">
                                 <a href="https://querycube.nilu.no/" target="_blank">
                                     <img src="{{ "images/querycube.png" | relative_url }}" alt="QueryCube">
