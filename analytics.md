@@ -42,6 +42,17 @@ layout: default
                                 </p>
                             </figure>
                         </div>
+                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <figure class="gallery-item shop-item card-item">
+                                <a href="https://querycube.nilu.no/" target="_blank">
+                                    <img src="{{ "images/querycube.png" | relative_url }}" alt="QueryCube">
+                                </a>
+                                <h3>QueryCube</h3>
+                                <p>
+                                    Dynamic point data access to data being stored on the FAIRiCUBE rasdaman instance.
+                                </p>
+                            </figure>
+                        </div>
                     </div>
                 </div>
             </div>
