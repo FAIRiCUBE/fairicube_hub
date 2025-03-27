@@ -12,6 +12,8 @@ if ! git pull 2>&1 | grep -q 'Already up to date'; then
 
   rsync -az --delete _site/ "$www_dir/" || exit 1
 
+else
+  echo "already up to date"
 fi
 
 popd > /dev/null || exit 1
