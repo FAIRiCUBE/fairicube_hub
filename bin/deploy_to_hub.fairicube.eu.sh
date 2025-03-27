@@ -8,9 +8,9 @@ pushd "$git_dir" || exit 1
 
 if ! git pull 2>&1 | grep -q 'Already up to date'; then
 
-  bundle exec jekyll build || exit 1
+  bundle exec jekyll build || { echo "building website failed"; exit 1; }
 
-  rsync -az --delete _site/ "$www_dir/" || exit 1
+  rsync -az --delete _site/ "$www_dir/" || { echo "syncing website failed"; exit 1; }
 
 else
   echo "already up to date"
