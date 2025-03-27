@@ -7,7 +7,7 @@ git_dir="/home/fairicube_hub/fairicube_hub"
 pushd "$git_dir" > /dev/null || exit 1
 
 if ! git pull 2>&1 | grep -q 'Already up to date'; then
-  echo "building and deploying website..."
+  echo -e "\n\n$(date) building and deploying website...\n\n"
   bundle exec jekyll build || { echo "building website failed"; exit 1; }
   rsync -az --delete _site/ "$www_dir/" || { echo "syncing website failed"; exit 1; }
   echo "done."
