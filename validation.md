@@ -50,6 +50,14 @@ layout: default
                                 <h3>Validation of FAIRiCUBE Hub services</h3>
                             </figure>
                         </div>
+			<div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <figure class="gallery-item shop-item card-item">
+                                <a href="validation-use-cases.html">
+                                    <img src="{{ "images/validation-data-services-card.jpeg" | relative_url }}" alt="Validation of FAIRiCUBE Use cases">
+                                </a>
+                                <h3>Validation of FAIRiCUBE use cases </h3>
+                            </figure>
+                        </div>
                     </div>
                 </div>
             </div>
