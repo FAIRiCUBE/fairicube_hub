@@ -6,6 +6,6 @@ layout: default
 
 <div class="paragraph">
 <p>
-  TODO
+The AI ethics assessment in FAIRiCUBE ensures that artificial intelligence is used responsibly and transparently across all Use Cases. The assessment examines how AI models are developed, how transparent their processes are, and whether they avoid bias or unfair outcomes. It also provides practical guidance to ensure that AI is implemented ethically throughout the project and reports on the validation results in a structured and traceable way. 
 </p>
 </div>
