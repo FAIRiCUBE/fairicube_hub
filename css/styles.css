@@ -287,3 +287,9 @@ iframe {
 .cards-page-title {
     text-align: center;
 }
+
+.gallery {
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+}

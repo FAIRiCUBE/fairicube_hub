@@ -18,7 +18,7 @@ layout: default
             <div class="row">
                 <div class="col-xs-12 products-carousel">
                     <div class="gallery portfolio-grid portfolio-animation-std products-carousel-itself">
-                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="gallery-cell card-row col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
                                 <a href="{{ "/validation-data-ingestion.html" | relative_url }}">
                                     <img src="{{ "images/validation-data-ingestion-card.jpeg" | relative_url }}" alt="Validation of data and data ingestion"/>
@@ -26,7 +26,7 @@ layout: default
                                 <h3>Validation of data / ingestion</h3>
                             </figure>
                         </div>
-                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="gallery-cell card-row col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
                                 <a href="validation-data-processing.html">
                                     <img src="{{ "images/validation-data-processing-card.jpeg" | relative_url }}" alt="Validation of data processing and ML applications">
@@ -34,7 +34,7 @@ layout: default
                                 <h3>Validation of data processing and ML applications</h3>
                             </figure>
                         </div>
-                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="gallery-cell card-row col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
                                 <a href="validation-ai-ethics.html">
                                     <img src="{{ "images/validation-ai-ethics-card.jpeg" | relative_url }}" alt="Validation of AI ethics">
@@ -42,7 +42,7 @@ layout: default
                                 <h3>Validation of AI ethics</h3>
                             </figure>
                         </div>
-                        <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="gallery-cell card-row col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
                                 <a href="validation-hub-services.html">
                                     <img src="{{ "images/validation-data-services-card.jpeg" | relative_url }}" alt="Validation of FAIRiCUBE Hub services">
@@ -50,7 +50,7 @@ layout: default
                                 <h3>Validation of FAIRiCUBE Hub services</h3>
                             </figure>
                         </div>
-			<div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
+			            <div class="gallery-cell card-row col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
                                 <a href="validation-use-cases.html">
                                     <img src="{{ "images/validation-use-case-card.jpg" | relative_url }}" alt="Validation of FAIRiCUBE Use cases">
