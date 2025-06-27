@@ -11,12 +11,17 @@ The AI ethics assessment in FAIRiCUBE ensures that artificial intelligence is us
 
  <table>
   <tr>
-    <th>Validation item</th>
-    <th>Description </th>
+    <td>Validation item</td>
+    <td>Description </td>
   </tr>
   <tr>
-    <td>GDPR applicability</td>
+    <th>Ethics (Trustworthy AI)</th>
   </tr>
+
+  <tr>
+    <th>GDPR applicability</th>
+  </tr>
+
   <tr>
     <td>List of data</td>
     <td>List the types of data you will process in your pilot</td>
