@@ -10,8 +10,13 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
 </p>
 </div>
 
+<div class="paragraph cards-page-title" style="padding-top: 10px">
+<a href="#uc1">Use Case 1</a> | <a href="#uc2">Use Case 2</a> | <a href="#uc3">Use Case 3</a> | <a href="#uc4">Use Case 4</a> | <a href="#uc5">Use Case 5</a>
+</div>
+<br/>
+
 <div class="paragraph">
-<h2>Use Case 1</h2>
+<h2 id="uc1">Use Case 1</h2>
 
 <table class="table table-striped">
   <thead>
