@@ -57,7 +57,7 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
       <tr>
         <td rowspan="5" style="vertical-align: middle;"><b>User assessment / fitness-for-purpose</b></td>
         <td>Support the users' work</td>
-        <td rowspan="5" style="vertical-align: middle; ">ref. stakeholder engagement</td>
+        <td rowspan="5" style="vertical-align: middle; "><a href="https://www.linkedin.com/posts/fairicube_we-are-excited-to-share-that-the-city-of-activity-7251577637041573888-bj9k?utm_source=share&utm_medium=member_desktop&rcm=ACoAACplJ-8BIFb82AyUZWulgl7TmPGVYW3pp84">Stakeholder engagement</a></td>
       </tr>
       <tr>
         <td>Service orientation</td>
@@ -94,7 +94,7 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
       </tr>
       <tr>
         <td>Reporting and Logging</td>
-        <td>benchmarks and log files</td>
+        <td>Benchmark logs included in the STAC metadata of a/p resources</td>
       </tr>
       <tr>
         <td rowspan="4" style="vertical-align: middle;"><b>Processing and Machine Learning</b></td>
@@ -128,8 +128,7 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
       </tr>
       <tr>
         <td>Data</td>
-        <td><a href="https://github.com/FAIRiCUBE/uc1-urban-climate/tree/master/data/city_features_collection">Zenodo
-            (TODO: upload data)</a></td>
+        <td><a href="https://zenodo.org/communities/fairicube/records?q=&f=file_type%3Atiff&l=list&p=1&s=10&sort=newest">Datasets archived in Zenodo</a></td>
       </tr>
       <tr>
         <td>Processing</td>
