@@ -33,7 +33,7 @@ layout: default
                         </div>
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="https://eoxhub.fairicube.eu/" target="_blank">
+                                <a href="https://workspace.fairicube.hub-otc-sc.eox.at/" target="_blank">
                                     <img src="{{ "images/eox-lab.webp" | relative_url }}" alt="EOX Lab">
                                 </a>
                                 <h3>EOX Lab</h3>

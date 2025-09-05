@@ -123,7 +123,7 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
       <tr>
         <td rowspan="4" style="vertical-align: middle;"><b>Data sharing</b></td>
         <td>Information</td>
-        <td><a href="https://catalog.eoxhub.fairicube.eu/collections/index/items/maxent_suitability_maps">FAIRiCUBE Data
+        <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/index/items/maxent_suitability_maps">FAIRiCUBE Data
             Catalog - UC1 - Suitability maps</a></td>
       </tr>
       <tr>
@@ -132,7 +132,7 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
       </tr>
       <tr>
         <td>Processing</td>
-        <td><a href="https://catalog.eoxhub.fairicube.eu/collections/no-ML%20collection/items/LSCZWC7OUN">FAIRiCUBE Data
+        <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/no-ML%20collection/items/LSCZWC7OUN">FAIRiCUBE Data
             Catalog - UC1 - Model SHAP</a></td>
       </tr>
       <tr>
@@ -383,7 +383,7 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
           <td rowspan="4" style="vertical-align: middle;"><b>Data sharing</b></td>
           <td>Information</td>
           <td><a
-              href="https://catalog.eoxhub.fairicube.eu/collections/index/items/Vienna_imperviousness_density_2018?.language=en">FAIRiCUBE
+              href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/index/items/Vienna_imperviousness_density_2018?.language=en">FAIRiCUBE
               Data Catalog</a></td>
         </tr>
         <tr>
@@ -394,7 +394,7 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
         </tr>
         <tr>
           <td>Processing</td>
-          <td><a href="https://catalog.eoxhub.fairicube.eu/collections/no-ML%20collection/items/2VGWTT6QKC">FAIRiCUBE
+          <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/no-ML%20collection/items/2VGWTT6QKC">FAIRiCUBE
               Data
               Catalog</a></td>
         </tr>
@@ -519,7 +519,7 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
         <tr>
           <td rowspan="4" style="vertical-align: middle;"><b>Data sharing</b></td>
           <td>Information</td>
-          <td><a href="https://stacapi.eoxhub.fairicube.eu/">FAIRiCUBE catalog STAC
+          <td><a href="https://stacapi.fairicube.hub-otc-sc.eox.at/">FAIRiCUBE catalog STAC
               API</a></td>
         </tr>
         <tr>
@@ -528,7 +528,7 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
         </tr>
         <tr>
           <td>Processing</td>
-          <td><a href="https://catalog.eoxhub.fairicube.eu/collections/no-ML%20collection/items/X8040TBJSH">FAIRiCUBE
+          <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/no-ML%20collection/items/X8040TBJSH">FAIRiCUBE
               Data
               Catalog – EPISCOPE-based heuristic</a></td>
         </tr>
@@ -665,7 +665,7 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
         <tr>
           <th rowspan="4">Data sharing</th>
           <td>Information</td>
-          <td><a href="https://catalog.eoxhub.fairicube.eu/collections/no-ML%20collection/items/WUBRC1AZ3B">FAIRiCUBE
+          <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/no-ML%20collection/items/WUBRC1AZ3B">FAIRiCUBE
               STAC
               Data Catalog</a></td>
         </tr>
@@ -677,7 +677,7 @@ Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each cas
         </tr>
         <tr>
           <td>Processing</td>
-          <td><a href="https://catalog.eoxhub.fairicube.eu/collections/no-ML%20collection/items/WUBRC1AZ3B">FAIRiCUBE
+          <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/no-ML%20collection/items/WUBRC1AZ3B">FAIRiCUBE
               STAC a/p resources Catalog </a></td>
         </tr>
         <tr>

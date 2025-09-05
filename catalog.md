@@ -11,7 +11,7 @@ layout: default
                     <div class="gallery portfolio-grid portfolio-animation-std products-carousel-itself">
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="https://catalog.eoxhub.fairicube.eu/" target="_blank">
+                                <a href="https://catalog.fairicube.hub-otc-sc.eox.at/" target="_blank">
                                     <img src="{{ "images/catalog.png" | relative_url }}" alt="Datacubes Catalog">
                                 </a>
                                 <h3>Catalog</h3>
@@ -22,7 +22,7 @@ layout: default
                         </div>
                         <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item shop-item card-item">
-                                <a href="https://catalog-editor.eoxhub.fairicube.eu/" target="_blank">
+                                <a href="https://workspace.fairicube.hub-otc-sc.eox.at/webgui-frontend/" target="_blank">
                                     <img src="{{ "images/catalog-editor.png" | relative_url }}" alt="Catalog Editor">
                                 </a>
                                 <h3>Catalog Editor</h3>
