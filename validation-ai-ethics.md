@@ -11,12 +11,11 @@ The AI ethics assessment in FAIRiCUBE ensures that artificial intelligence is us
 
  <table>
   <tr>
-    <th>Ethics (Trustworthy AI)</th>
-  </tr>
-
-  <tr>
     <td>Validation item</td>
     <td>Description </td>
+  </tr>
+  <tr>
+    <th>Ethics (Trustworthy AI)</th>
   </tr>
 
   <tr>
