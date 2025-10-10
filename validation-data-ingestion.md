@@ -19,7 +19,7 @@ Ingestion validation (including data pre-processing) is an initial part of the U
 
 <img src="{{ "images/validation-data-ingestion.png" | relative_url }}" alt="Validation workflow">
 </div>
-<p>
+<br>
 
 | **Process**                                                   | **Check type**                                                                                                            | **Characteristic**                                                | **Description**              |
 | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------- |
