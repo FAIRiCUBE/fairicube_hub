@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>FAIRiCUBE Hub | FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R. (Findable, Accessible, Interoperable, Reusable) datacubes. Our goal is to empower researchers, data scientists, and industry experts with standardized, analysis-ready datacubes that are fully compliant with F.A.I.R. principles.</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="FAIRiCUBE Hub" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R. (Findable, Accessible, Interoperable, Reusable) datacubes. Our goal is to empower researchers, data scientists, and industry experts with standardized, analysis-ready datacubes that are fully compliant with F.A.I.R. principles." />
+<meta property="og:description" content="FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R. (Findable, Accessible, Interoperable, Reusable) datacubes. Our goal is to empower researchers, data scientists, and industry experts with standardized, analysis-ready datacubes that are fully compliant with F.A.I.R. principles." />
+<link rel="canonical" href="/validation-use-cases.html" />
+<meta property="og:url" content="/validation-use-cases.html" />
+<meta property="og:site_name" content="FAIRiCUBE Hub" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="FAIRiCUBE Hub" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R. (Findable, Accessible, Interoperable, Reusable) datacubes. Our goal is to empower researchers, data scientists, and industry experts with standardized, analysis-ready datacubes that are fully compliant with F.A.I.R. principles.","headline":"FAIRiCUBE Hub","url":"/validation-use-cases.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="FAIRiCUBE Hub" /><title>FAIRiCUBE Hub</title>
+
+  <link rel="icon" type="image/png" href="/images/favicon.ico"/>
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/general.css">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body><section class="hero">
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li class="dropdown">
+                        <a href="/catalog.html" class="dropbtn">Datacubes</a>
+                        <div class="dropdown-content">
+                            <a href="https://catalog.fairicube.hub-otc-sc.eox.at/" target="_blank" rel="noopener noreferrer">Catalog</a>
+                            <a href="https://workspace.fairicube.hub-otc-sc.eox.at/webgui-frontend/" target="_blank" rel="noopener noreferrer">Catalog Editor</a>
+                            <a href="https://fairicube-md.epsilon-italia.it/" target="_blank" rel="noopener noreferrer">Resource Metadata Forms</a>
+                            <a href="https://zenodo.org/communities/fairicube/records?q=&f=resource_type%3Adataset&l=list&p=1&s=10&sort=newest" target="_blank" rel="noopener noreferrer">Data @ Zenodo</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="/analytics.html" class="dropbtn">Analytics</a>
+                        <div class="dropdown-content">
+                            <a href="https://fairicube.rasdaman.com/rasdaman-dashboard/" target="_blank" rel="noopener noreferrer">rasdaman dashboard</a>
+                            <a href="https://fairicube.rasdaman.com/jhub/" target="_blank" rel="noopener noreferrer">rasdaman JupyterLab</a>
+                            <a href="https://workspace.fairicube.hub-otc-sc.eox.at/" target="_blank" rel="noopener noreferrer">EOX Lab</a>
+                            <a href="https://querycube.nilu.no/" target="_blank" rel="noopener noreferrer">QueryCube</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="/validation.html" class="dropbtn">Validation</a>
+                        <div class="dropdown-content">
+			    <a href="https://forms.gle/bWAovoGzvUBDyaFF6" target="_blank" rel="noopener noreferrer">Web forms</a>
+			    <a href="/validation-use-cases.html">Use cases</a>
+                            <a href="/validation-data-ingestion.html">Data / Ingestion</a>
+                            <a href="/validation-data-processing.html">Processing / ML</a>
+                            <a href="/validation-ai-ethics.html">AI Ethics</a>
+                            <a href="/validation-hub-services.html">FAIRiCUBE Hub Services</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="/docs.html" class="dropbtn">Docs</a>
+                        <div class="dropdown-content">
+                            <a href="https://fairicube.nilu.no/" target="_blank" rel="noopener noreferrer">Project website</a>
+                            <a href="https://fairicube.readthedocs.io/" target="_blank" rel="noopener noreferrer">Digital Library</a>
+                            <a href="https://fairicube-kb.epsilon-italia.it/" target="_blank" rel="noopener noreferrer">Query Tool</a>
+                            <a href="https://github.com/FAIRiCUBE" target="_blank" rel="noopener noreferrer">GitHub project</a>
+                            <a href="https://zenodo.org/communities/fairicube/records?q=&f=resource_type%3Apublication&l=list&p=1&s=10&sort=newest" target="_blank" rel="noopener noreferrer">Reports @ Zenodo</a>
+                            <a href="https://fic-chatbot-v2-1061322294515.us-central1.run.app" target="_blank" rel="noopener noreferrer">Chatbot</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logo-search">
+                <form action="https://cse.google.com/cse" method="get" target="_blank" rel="noopener noreferrer">
+                    <input type="hidden" name="cx" value="47f51a6f005bd4f4a">
+                    <input type="text" name="q" placeholder="Search..." class="search-box">
+                    <button type="submit" class="search-button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </header>
+
+
+        <div class="text-center">
+            <h1 class="hero-title">FAIRiCUBE-Hub</h1>
+            <h2 class="hero-subtitle">The Gridded GeoData Working Environment</h2>
+        </div>
+    </div>
+</section>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper" id="main-content">
+        <h1 class="cards-page-title">Validation of FAIRiCUBE use cases</h1>
+
+<div class="paragraph">
+<p>
+Validation of use cases (UCs) in FAIRiCUBE focuses on assessing whether each case is clearly defined, aligned with project goals, and practically applicable. It involves checking the completeness and clarity of UC specifications, evaluating whether the right data and methods are used, and conducting user assessments to ensure the outputs meet real-world needs. Fit-for-purpose checks are applied to confirm that the results are suitable for the intended context. This process also includes documenting findings and communicating them effectively to stakeholders. Importantly, UC validation is closely connected to the validation of processing workflows and platform functionality, ensuring consistency across technical and thematic components.
+</p>
+</div>
+
+<div class="paragraph cards-page-title" style="padding-top: 10px">
+<a href="#uc1">Use Case 1</a> | <a href="#uc2">Use Case 2</a> | <a href="#uc3">Use Case 3</a> | <a href="#uc4">Use Case 4</a> | <a href="#uc5">Use Case 5</a>
+</div>
+<p><br /></p>
+
+<div class="paragraph">
+  <h2 id="uc1">Use Case 1</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>UC implementation step</th>
+        <th>Check type</th>
+        <th>Reference</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="5" style="vertical-align: middle;"><b>UC specifications</b></td>
+        <td>Clear Goal defined</td>
+        <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc1_urban_climate/#research-questions">FAIRiCUBE
+            Digital library – UC1 – Research questions</a></td>
+      </tr>
+      <tr>
+        <td>Required datasets identified</td>
+        <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc1_urban_climate/#data-and-ingestion">FAIRiCUBE
+            Digital library – UC1 – Data and ingestion</a></td>
+      </tr>
+      <tr>
+        <td>Required ML/AI approaches identified</td>
+        <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc1_urban_climate/#processing-steps-and-ml-applications">FAIRiCUBE
+            Digital library – UC1 – Processing steps and ML applications</a></td>
+      </tr>
+      <tr>
+        <td>Workflow designed</td>
+        <td><a href="https://fairicube.readthedocs.io/en/latest/images/uc1_workflow_eu.png">FAIRiCUBE Website – UC1
+            workflow</a></td>
+      </tr>
+      <tr>
+        <td>Visualisation of outputs designed</td>
+        <td><a href="https://uc1.fairicube.nilu.no/">UC1 Scrollytelling</a></td>
+      </tr>
+      <tr>
+        <td rowspan="5" style="vertical-align: middle;"><b>User assessment / fitness-for-purpose</b></td>
+        <td>Support the users' work</td>
+        <td rowspan="5" style="vertical-align: middle; "><a href="https://www.linkedin.com/posts/fairicube_we-are-excited-to-share-that-the-city-of-activity-7251577637041573888-bj9k?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACplJ-8BIFb82AyUZWulgl7TmPGVYW3pp84">Stakeholder engagement</a></td>
+      </tr>
+      <tr>
+        <td>Service orientation</td>
+      </tr>
+      <tr>
+        <td>Reliability</td>
+      </tr>
+      <tr>
+        <td>Applicability</td>
+      </tr>
+      <tr>
+        <td>Data systems stability, reliability, and interoperability</td>
+      </tr>
+      <tr>
+        <td rowspan="6" style="vertical-align: middle;"><b>Data pre-processing and ingestion</b></td>
+        <td>List of characteristics</td>
+        <td rowspan="4" style="vertical-align: middle; "><a href="https://github.com/FAIRiCUBE/uc1-urban-climate/blob/master/pre-processing/quality_check.py">Github -
+            Pre-processing: quality check</a></td>
+      </tr>
+      <tr>
+        <td>Descriptive Statistics Calculation</td>
+      </tr>
+      <tr>
+        <td>Spatial Validation</td>
+      </tr>
+      <tr>
+        <td>Anomaly detection</td>
+      </tr>
+      <tr>
+        <td>Error Labelling and Data Incorporation</td>
+        <td><a href="https://github.com/FAIRiCUBE/uc1-urban-climate/tree/master/processing/gap_filling">Github -
+            Processing: gap filling</a></td>
+      </tr>
+      <tr>
+        <td>Reporting and Logging</td>
+        <td>Benchmark logs included in the STAC metadata of a/p resources</td>
+      </tr>
+      <tr>
+        <td rowspan="4" style="vertical-align: middle;"><b>Processing and Machine Learning</b></td>
+        <td>Algorithm implementation validation</td>
+        <td><a href="https://github.com/FAIRiCUBE/uc1-urban-climate/blob/master/processing/sdm/MaxentTutoExample.py">Github
+            - processing: MaxEnt example</a></td>
+      </tr>
+      <tr>
+        <td>Machine learning validation</td>
+        <td><a href="https://github.com/FAIRiCUBE/uc1-urban-climate/blob/master/processing/sdm/maxent_model_evaluation_results.csv">Github
+            - processing: MaxEnt model evaluation</a></td>
+      </tr>
+      <tr>
+        <td>Benchmarking</td>
+        <td><a href="https://github.com/FAIRiCUBE/uc1-urban-climate/blob/master/processing/sdm/benchmarks_maxent.csv">Github
+            - processing: MaxEnt benchmarks</a></td>
+      </tr>
+      <tr>
+        <td>Comprehensive documentation</td>
+        <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc1_urban_climate">FAIRiCUBE Digital library –
+            UC1</a></td>
+      </tr>
+      <tr>
+        <td rowspan="4" style="vertical-align: middle;"><b>Data sharing</b></td>
+        <td>Information</td>
+        <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/index/items/maxent_suitability_maps">FAIRiCUBE Data
+            Catalog - UC1 - Suitability maps</a></td>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td><a href="https://zenodo.org/communities/fairicube/records?q=&amp;f=file_type%3Atiff&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest">Datasets archived in Zenodo</a></td>
+      </tr>
+      <tr>
+        <td>Processing</td>
+        <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/no-ML%20collection/items/LSCZWC7OUN">FAIRiCUBE Data
+            Catalog - UC1 - Model SHAP</a></td>
+      </tr>
+      <tr>
+        <td>Portrayal</td>
+        <td><a href="https://zenodo.org/records/16570538">Zenodo – Poster for the
+            GDDS event</a></td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="vertical-align: middle;"><b>AI ethics assessment</b></td>
+        <td>Ethics (Trustworthy AI)</td>
+        <td><a href="https://hub.fairicube.eu/validation-ai-ethics.html">FAIRiCUBE
+            Hub – Validation of AI Ethics</a></td>
+      </tr>
+      <tr>
+        <td>GDPR applicability</td>
+        <td>Not Applicable</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="paragraph">
+  <h2 id="uc2">Use Case 2</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>UC implementation step</th>
+        <th>Check type</th>
+        <th>Reference</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="5" style="vertical-align: middle;"><b>UC specifications</b></td>
+        <td>Clear Goal defined</td>
+        <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc2_biodiversity_agri/#overview">FAIRiCUBE
+            Digital library – UC2 – Overview</a></td>
+      </tr>
+      <tr>
+        <td>Required datasets identified</td>
+        <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc2_biodiversity_agri/#data">FAIRiCUBE Digital
+            library – UC2 – Data</a></td>
+      </tr>
+      <tr>
+        <td>Required ML/AI approaches identified</td>
+        <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc2_biodiversity_agri/#approach">FAIRiCUBE
+            Digital library – UC2 – Approach</a></td>
+      </tr>
+      <tr>
+        <td>Workflow designed</td>
+        <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc2_biodiversity_agri/images/uc2_workflow_diagram.png">FAIRiCUBE
+            Website – UC2 workflow</a></td>
+      </tr>
+      <tr>
+        <td>Visualisation of outputs designed</td>
+        <td><a href="https://uc2.fairicube.nilu.no/">UC2 Scrollytelling</a></td>
+      </tr>
+      <tr>
+        <td rowspan="5" style="vertical-align: middle;"><b>User assessment / fitness-for-purpose</b></td>
+        <td>Support the users' work</td>
+        <td rowspan="5" style="vertical-align: middle; ">missing reference</td>
+      </tr>
+      <tr>
+        <td>Service orientation</td>
+      </tr>
+      <tr>
+        <td>Reliability</td>
+      </tr>
+      <tr>
+        <td>Applicability</td>
+      </tr>
+      <tr>
+        <td>Data systems stability, reliability, and interoperability</td>
+      </tr>
+      <tr>
+        <td rowspan="6" style="vertical-align: middle;"><b>Data pre-processing and ingestion</b></td>
+        <td>List of characteristics</td>
+        <td rowspan="6" style="vertical-align: middle; "><a href="https://github.com/FAIRiCUBE/uc2-agriculture-biodiversity-nexus/tree/main/ingestion-validation">Github
+            - Data preparation scripts</a></td>
+      </tr>
+      <tr>
+        <td>Descriptive Statistics Calculation</td>
+      </tr>
+      <tr>
+        <td>Spatial Validation</td>
+      </tr>
+      <tr>
+        <td>Anomaly detection</td>
+      </tr>
+      <tr>
+        <td>Error Labelling and Data Incorporation</td>
+      </tr>
+      <tr>
+        <td>Reporting and Logging</td>
+      </tr>
+      <tr>
+        <td rowspan="4" style="vertical-align: middle;"><b>Processing and Machine Learning</b></td>
+        <td>Algorithm implementation validation</td>
+        <td><a href="link to script validating that the implementation is correct">Validation scripts</a></td>
+      </tr>
+      <tr>
+        <td>Machine learning validation</td>
+        <td><a href="link to ML validation scripts or results (accuracy metrics etc)">ML validation results</a></td>
+      </tr>
+      <tr>
+        <td>Benchmarking</td>
+        <td><a href="https://github.com/FAIRiCUBE/uc2-agriculture-biodiversity-nexus/tree/main/measurer_test">Github -
+            Measurer</a></td>
+      </tr>
+      <tr>
+        <td>Comprehensive documentation</td>
+        <td><a href="link to own documentation e.g. FAIRiCUBE Hub or library documentation">Documentation</a></td>
+      </tr>
+      <tr>
+        <td rowspan="4" style="vertical-align: middle;"><b>Data sharing</b></td>
+        <td>Information</td>
+        <td><a href="link to stac metadata">STAC metadata</a></td>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td><a href="link to data (intermediate results and outputs)">Data
+            outputs</a></td>
+      </tr>
+      <tr>
+        <td>Processing</td>
+        <td><a href="link to a/p resources metadata">Processing resources
+            metadata</a></td>
+      </tr>
+      <tr>
+        <td>Portrayal</td>
+        <td><a href="links to poster/other material?">Poster / Other materials</a>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="vertical-align: middle;"><b>AI ethics assessment</b></td>
+        <td>Ethics (Trustworthy AI)</td>
+        <td><a href="https://hub.fairicube.eu/validation-ai-ethics.html">FAIRiCUBE Hub – Validation of AI
+            Ethics</a></td>
+      </tr>
+      <tr>
+        <td>GDPR applicability</td>
+        <td>Not Applicable</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="paragraph">
+    <h2 id="uc3">Use Case 3</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>UC implementation step</th>
+          <th>Check type</th>
+          <th>Reference</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="5" style="vertical-align: middle;"><b>UC specifications</b></td>
+          <td>Clear Goal defined</td>
+          <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc3_drosophila_genetics/#research-questions">FAIRiCUBE
+              Digital library – UC3 – Research questions</a></td>
+        </tr>
+        <tr>
+          <td>Required datasets identified</td>
+          <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc3_drosophila_genetics/#data-and-ingestion">FAIRiCUBE
+              Digital library – UC3 – Data and ingestion</a></td>
+        </tr>
+        <tr>
+          <td>Required ML/AI approaches identified</td>
+          <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc3_drosophila_genetics/#processing-steps-and-ml-applications">FAIRiCUBE
+              Digital library – UC3 – Processing steps and ML applications</a></td>
+        </tr>
+        <tr>
+          <td>Workflow designed</td>
+          <td><a href="https://fairicube.nilu.no/wp-content/uploads/sites/21/2025/05/uc3-worksflow-2025.png">FAIRiCUBE
+              Website – UC3 workflow</a></td>
+        </tr>
+        <tr>
+          <td>Visualisation of outputs designed</td>
+          <td><a href="https://doi.org/10.5281/zenodo.16615054; https://uc3.fairicube.nilu.no/">UC3 Scrollytelling</a>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="5" style="vertical-align: middle;"><b>User assessment / fitness-for-purpose</b></td>
+          <td>Support the users' work</td>
+          <td rowspan="5"><a href="https://github.com/capoony/UrbanDrosophilaEcology">Github - UrbanDrosophila Ecology
+              Project</a></td>
+        </tr>
+        <tr>
+          <td>Service orientation</td>
+        </tr>
+        <tr>
+          <td>Reliability</td>
+        </tr>
+        <tr>
+          <td>Applicability</td>
+        </tr>
+        <tr>
+          <td>Data systems stability, reliability, and interoperability</td>
+        </tr>
+        <tr>
+          <td rowspan="6" style="vertical-align: middle;"><b>Data pre-processing and ingestion</b></td>
+          <td>List of characteristics</td>
+          <td><a href="Add link">Github links</a></td>
+        </tr>
+        <tr>
+          <td>Descriptive Statistics Calculation</td>
+          <td><a href="Add link">Github links</a></td>
+        </tr>
+        <tr>
+          <td>Spatial Validation</td>
+          <td><a href="Add link">Github links</a></td>
+        </tr>
+        <tr>
+          <td>Anomaly detection</td>
+          <td><a href="Add link">Github links</a></td>
+        </tr>
+        <tr>
+          <td>Error Labelling and Data Incorporation</td>
+          <td><a href="Add link">Github links</a></td>
+        </tr>
+        <tr>
+          <td>Reporting and Logging</td>
+          <td><a href="Add link">Github links</a></td>
+        </tr>
+        <tr>
+          <td rowspan="4" style="vertical-align: middle;"><b>Processing and Machine Learning</b></td>
+          <td>Algorithm implementation validation</td>
+          <td><a href="Add link">Github links</a></td>
+        </tr>
+        <tr>
+          <td>Machine learning validation</td>
+          <td><a href="Add link">Github links</a></td>
+        </tr>
+        <tr>
+          <td>Benchmarking</td>
+          <td><a href="Add link">Github links</a></td>
+        </tr>
+        <tr>
+          <td>Comprehensive documentation</td>
+          <td><a href="Add link">Github links</a></td>
+        </tr>
+        <tr>
+          <td rowspan="4" style="vertical-align: middle;"><b>Data sharing</b></td>
+          <td>Information</td>
+          <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/index/items/Vienna_imperviousness_density_2018?.language=en">FAIRiCUBE
+              Data Catalog</a></td>
+        </tr>
+        <tr>
+          <td>Data</td>
+          <td><a href="https://github.com/FAIRiCUBE/uc3-drosophola-genetics/tree/main/projects/LandscapeGenomicsPipeline/results">Github
+              – Landscape genomics</a></td>
+        </tr>
+        <tr>
+          <td>Processing</td>
+          <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/no-ML%20collection/items/2VGWTT6QKC">FAIRiCUBE
+              Data
+              Catalog</a></td>
+        </tr>
+        <tr>
+          <td>Portrayal</td>
+          <td><a href="https://doi.org/10.5281/zenodo.16615054; https://github.com/capoony/UrbanDrosophilaEcology">Zenodo –
+              Poster for the GDDS event</a></td>
+        </tr>
+        <tr>
+          <td rowspan="2" style="vertical-align: middle;"><b>AI ethics assessment</b></td>
+          <td>Ethics (Trustworthy AI)</td>
+          <td><a href="https://hub.fairicube.eu/validation-ai-ethics.html">FAIRiCUBE Hub – Validation of AI
+              Ethics</a></td>
+        </tr>
+        <tr>
+          <td>GDPR applicability</td>
+          <td>Not Applicable</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="paragraph">
+    <h2 id="uc4">Use Case 4</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>UC implementation step</th>
+          <th>Check type</th>
+          <th>Reference</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="5" style="vertical-align: middle;"><b>UC specifications</b></td>
+          <td>Clear Goal defined</td>
+          <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc4_buildings/#research-questions">FAIRiCUBE
+              Digital library – UC4 – Research questions</a></td>
+        </tr>
+        <tr>
+          <td>Required datasets identified</td>
+          <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc4_buildings/#data-and-ingestion">FAIRiCUBE
+              Digital library – UC4 – Data and ingestion</a></td>
+        </tr>
+        <tr>
+          <td>Required ML/AI approaches identified</td>
+          <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc4_buildings/#processing-steps-and-ml-applications">FAIRiCUBE
+              Digital library – UC4 – Processing steps and ML applications</a></td>
+        </tr>
+        <tr>
+          <td>Workflow designed</td>
+          <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc4_buildings/workflowuc4.png">FAIRiCUBE
+              Digital library – UC4 – Workflow</a></td>
+        </tr>
+        <tr>
+          <td>Visualisation of outputs designed</td>
+          <td><a href="https://uc4.fairicube.nilu.no/">UC4 Scrollytelling</a></td>
+        </tr>
+        <tr>
+          <td rowspan="5" style="vertical-align: middle;"><b>User assessment / fitness-for-purpose</b></td>
+          <td>Support the users' work</td>
+          <td rowspan="5" style="vertical-align: middle; ">missing reference</td>
+        </tr>
+        <tr>
+          <td>Service orientation</td>
+        </tr>
+        <tr>
+          <td>Reliability</td>
+        </tr>
+        <tr>
+          <td>Applicability</td>
+        </tr>
+        <tr>
+          <td>Data systems stability, reliability, and interoperability</td>
+        </tr>
+        <tr>
+          <td rowspan="6" style="vertical-align: middle;"><b>Data pre-processing and ingestion</b></td>
+          <td>List of characteristics</td>
+          <td rowspan="6" style="vertical-align: middle; "><a href="https://github.com/FAIRiCUBE/uc4-building-stock/blob/main/notebooks/Energy_estimation_Rennes.ipynb">Github
+              - Energy estimation notebooks</a></td>
+        </tr>
+        <tr>
+          <td>Descriptive Statistics Calculation</td>
+        </tr>
+        <tr>
+          <td>Spatial Validation</td>
+        </tr>
+        <tr>
+          <td>Anomaly detection</td>
+        </tr>
+        <tr>
+          <td>Error Labelling and Data Incorporation</td>
+        </tr>
+        <tr>
+          <td>Reporting and Logging</td>
+        </tr>
+        <tr>
+          <td rowspan="4" style="vertical-align: middle;"><b>Processing and Machine Learning</b></td>
+          <td>Algorithm implementation validation</td>
+          <td><a href="https://github.com/FAIRiCUBE/uc4-building-stock/tree/main/notebooks">Github - Notebooks</a></td>
+        </tr>
+        <tr>
+          <td>Machine learning validation</td>
+          <td><a href="https://github.com/FAIRiCUBE/uc4-building-stock/blob/main/notebooks/Energy_estimation_Rennes.ipynbs">Github
+              - Energy estimation notebooks</a></td>
+        </tr>
+        <tr>
+          <td>Benchmarking</td>
+          <td><a href="https://github.com/FAIRiCUBE/uc4-building-stock/blob/main/notebooks/performance_measures.ipynb">Github
+              - Performance measures</a></td>
+        </tr>
+        <tr>
+          <td>Comprehensive documentation</td>
+          <td><a href=" https://github.com/FAIRiCUBE/uc4-building-stock/blob/main/notebooks/Energy_estimation_Oslo.ipynb">Github
+              - Energy estimation notebooks (self-documented)</a></td>
+        </tr>
+        <tr>
+          <td rowspan="4" style="vertical-align: middle;"><b>Data sharing</b></td>
+          <td>Information</td>
+          <td><a href="https://stacapi.fairicube.hub-otc-sc.eox.at/">FAIRiCUBE catalog STAC
+              API</a></td>
+        </tr>
+        <tr>
+          <td>Data</td>
+          <td><a href="https://zenodo.org/records/15789521">Zenodo</a></td>
+        </tr>
+        <tr>
+          <td>Processing</td>
+          <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/no-ML%20collection/items/X8040TBJSH">FAIRiCUBE
+              Data
+              Catalog – EPISCOPE-based heuristic</a></td>
+        </tr>
+        <tr>
+          <td>Portrayal</td>
+          <td>SBE25 Proceedings</td>
+        </tr>
+        <tr>
+          <td rowspan="2" style="vertical-align: middle;"><b>AI ethics assessment</b></td>
+          <td>Ethics (Trustworthy AI)</td>
+          <td><a href="https://hub.fairicube.eu/validation-ai-ethics.html">FAIRiCUBE
+              Hub – Validation of AI Ethics</a></td>
+        </tr>
+        <tr>
+          <td>GDPR applicability</td>
+          <td>Not Applicable</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="paragraph">
+    <h2 id="uc5">Use Case 5</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>UC implementation step</th>
+          <th>Check type</th>
+          <th>Reference</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="5">UC specifications</th>
+          <td>Clear Goal defined</td>
+          <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc5_biodiversity_cubes/#research-questions">FAIRiCUBE
+              Digital library – UC5 – Research questions</a></td>
+        </tr>
+        <tr>
+          <td>Required datasets identified</td>
+          <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc5_biodiversity_cubes/#1-data-retrieval">FAIRiCUBE
+              Digital library – UC5 – Data retrieval</a></td>
+        </tr>
+        <tr>
+          <td>Required ML/AI approaches identified</td>
+          <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc5_biodiversity_cubes/#3-processing-steps-and-ml-applications">FAIRiCUBE
+              Digital library – UC5 – Processing Steps and ML Applications</a></td>
+        </tr>
+        <tr>
+          <td>Workflow designed</td>
+          <td><a href="https://fairicube.nilu.no/wp-content/uploads/sites/21/2025/05/UC5_workflow-2025-1024x577.png">FAIRiCUBE
+              Website – UC5 workflow</a></td>
+        </tr>
+        <tr>
+          <td>Visualisation of outputs designed</td>
+          <td><a href="https://uc5.fairicube.nilu.no/">UC5 Scrollytelling</a></td>
+        </tr>
+        <tr>
+          <th rowspan="5">User assessment / fitness-for-purpose</th>
+          <td>Support the users' work</td>
+          <td rowspan="5"><a href="https://github.com/FAIRiCUBE/uc5-occurence-cubes/tree/main/user-friendly-script">GithHub – User
+              friendly script</a></td>
+        </tr>
+        <tr>
+          <td>Service orientation</td>
+        </tr>
+        <tr>
+          <td>Reliability</td>
+        </tr>
+        <tr>
+          <td>Applicability</td>
+        </tr>
+        <tr>
+          <td>Data systems stability, reliability, and interoperability</td>
+        </tr>
+        <tr>
+          <th rowspan="6">Data pre-processing and ingestion</th>
+          <td>List of characteristics</td>
+          <td rowspan="6"><a href="https://github.com/FAIRiCUBE/uc5-occurence-cubes/blob/main/Notebooks/GETDATA_GBIF.R">Github – Data
+              pre-processing and ingestion</a></td>
+        </tr>
+        <tr>
+          <td>Descriptive Statistics Calculation</td>
+        </tr>
+        <tr>
+          <td>Spatial Validation</td>
+        </tr>
+        <tr>
+          <td>Anomaly detection</td>
+        </tr>
+        <tr>
+          <td>Error Labelling and Data Incorporation</td>
+        </tr>
+        <tr>
+          <td>Reporting and Logging</td>
+        </tr>
+        <tr>
+          <th rowspan="5">Processing and Machine Learning</th>
+          <td rowspan="2">Algorithm implementation validation</td>
+          <td><a href="https://github.com/FAIRiCUBE/uc5-occurence-cubes/blob/main/Model_statistics_all_outputs.csv">Github
+              –
+              Model output statistics</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/FAIRiCUBE/uc5-occurence-cubes/blob/main/Notebooks/Ensemble_model_workflow.R">Github
+              –
+              Model workflow</a></td>
+        </tr>
+        <tr>
+          <td>Machine learning validation</td>
+          <td><a href="https://github.com/FAIRiCUBE/uc5-occurence-cubes/blob/main/Notebooks/comparison_with_EUNIS_EVA_validation.R">Github
+              – Model validation</a></td>
+        </tr>
+        <tr>
+          <td>Benchmarking</td>
+          <td><a href="https://github.com/FAIRiCUBE/uc5-occurence-cubes/blob/main/Notebooks/compare_with_EUNIS.R">Github
+              –
+              Model benchmarking</a></td>
+        </tr>
+        <tr>
+          <td>Comprehensive documentation</td>
+          <td><a href="https://fairicube.readthedocs.io/en/latest/use_cases/uc5_biodiversity_cubes/#3-processing-steps-and-ml-applications">FAIRiCUBE
+              Digital Library – UC5 – Processing steps and ML Applications</a></td>
+        </tr>
+        <tr>
+          <th rowspan="4">Data sharing</th>
+          <td>Information</td>
+          <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/no-ML%20collection/items/WUBRC1AZ3B">FAIRiCUBE
+              STAC
+              Data Catalog</a></td>
+        </tr>
+        <tr>
+          <td>Data</td>
+          <td><a href="https://github.com/FAIRiCUBE/uc5-occurence-cubes/blob/main/S22df_datasource_grouped.csv">Input
+              data
+              in Github Repository</a></td>
+        </tr>
+        <tr>
+          <td>Processing</td>
+          <td><a href="https://catalog.fairicube.hub-otc-sc.eox.at/collections/no-ML%20collection/items/WUBRC1AZ3B">FAIRiCUBE
+              STAC a/p resources Catalog </a></td>
+        </tr>
+        <tr>
+          <td>Portrayal</td>
+          <td><a href="https://zenodo.org/me/requests/52a8b109-15f3-4456-9f35-58d3280a7439">Zenodo – Poster for the GDDS
+              event</a></td>
+        </tr>
+        <tr>
+          <th rowspan="2">AI ethics assessment</th>
+          <td>Ethics (Trustworthy AI)</td>
+          <td><a href="https://hub.fairicube.eu/validation-ai-ethics.html">FAIRiCUBE
+              Hub – Validation of AI Ethics</a></td>
+        </tr>
+        <tr>
+          <td>GDPR applicability</td>
+          <td>Not applicable</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/%20/"></data>
+
+  <div class="container">
+
+    <h2 class="footer-heading">FAIRiCUBE Hub</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name"></li><li><a class="u-email" href="mailto:fairicube@nilu.no">fairicube@nilu.no</a></li><li><img src="/images/fairicube_logo_transparent_lr.png" alt="Datacubes Catalog"></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list footer-links"><li><a href="https://github.com/FAIRiCUBE"><svg class="svg-icon"><use xlink:href="assets/minima-social-icons.svg#github"></use></svg> <span class="username">FAIRiCUBE</span></a></li><li><a href="https://www.twitter.com/FAIRiCUBE"><svg class="svg-icon"><use xlink:href="assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">FAIRiCUBE</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R.  (Findable, Accessible, Interoperable, Reusable) datacubes. Our goal is to empower researchers, data scientists, and industry experts with standardized,  analysis-ready datacubes that are fully compliant with F.A.I.R. principles.</p>
+        <img src="/images/Funded_by_the_EU.png" alt="Funded by the EU" style="width: 50%"/>
+        <p>This project has received funding from the Horizon Europe programme under grant agreement No 101059238.</p>
+      </div>
+
+    </div>
+
+    <p class="credits">
+      <i>
+        Created in project EU <a class="footer-links" href="https://fairicube.eu">FAIRiCUBE</a>,
+        implemented by <a class="footer-links" href="https://l-sis.org">Constructor University L-SIS research
+        group</a>.
+      </i>
+    </p>
+  </div>
+
+</footer>
+</body>
+
+</html>

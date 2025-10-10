@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>FAIRiCUBE Hub | FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R. (Findable, Accessible, Interoperable, Reusable) datacubes. Our goal is to empower researchers, data scientists, and industry experts with standardized, analysis-ready datacubes that are fully compliant with F.A.I.R. principles.</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="FAIRiCUBE Hub" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R. (Findable, Accessible, Interoperable, Reusable) datacubes. Our goal is to empower researchers, data scientists, and industry experts with standardized, analysis-ready datacubes that are fully compliant with F.A.I.R. principles." />
+<meta property="og:description" content="FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R. (Findable, Accessible, Interoperable, Reusable) datacubes. Our goal is to empower researchers, data scientists, and industry experts with standardized, analysis-ready datacubes that are fully compliant with F.A.I.R. principles." />
+<link rel="canonical" href="/validation-data-ingestion.html" />
+<meta property="og:url" content="/validation-data-ingestion.html" />
+<meta property="og:site_name" content="FAIRiCUBE Hub" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="FAIRiCUBE Hub" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R. (Findable, Accessible, Interoperable, Reusable) datacubes. Our goal is to empower researchers, data scientists, and industry experts with standardized, analysis-ready datacubes that are fully compliant with F.A.I.R. principles.","headline":"FAIRiCUBE Hub","url":"/validation-data-ingestion.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="FAIRiCUBE Hub" /><title>FAIRiCUBE Hub</title>
+
+  <link rel="icon" type="image/png" href="/images/favicon.ico"/>
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/general.css">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body><section class="hero">
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li class="dropdown">
+                        <a href="/catalog.html" class="dropbtn">Datacubes</a>
+                        <div class="dropdown-content">
+                            <a href="https://catalog.fairicube.hub-otc-sc.eox.at/" target="_blank" rel="noopener noreferrer">Catalog</a>
+                            <a href="https://workspace.fairicube.hub-otc-sc.eox.at/webgui-frontend/" target="_blank" rel="noopener noreferrer">Catalog Editor</a>
+                            <a href="https://fairicube-md.epsilon-italia.it/" target="_blank" rel="noopener noreferrer">Resource Metadata Forms</a>
+                            <a href="https://zenodo.org/communities/fairicube/records?q=&f=resource_type%3Adataset&l=list&p=1&s=10&sort=newest" target="_blank" rel="noopener noreferrer">Data @ Zenodo</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="/analytics.html" class="dropbtn">Analytics</a>
+                        <div class="dropdown-content">
+                            <a href="https://fairicube.rasdaman.com/rasdaman-dashboard/" target="_blank" rel="noopener noreferrer">rasdaman dashboard</a>
+                            <a href="https://fairicube.rasdaman.com/jhub/" target="_blank" rel="noopener noreferrer">rasdaman JupyterLab</a>
+                            <a href="https://workspace.fairicube.hub-otc-sc.eox.at/" target="_blank" rel="noopener noreferrer">EOX Lab</a>
+                            <a href="https://querycube.nilu.no/" target="_blank" rel="noopener noreferrer">QueryCube</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="/validation.html" class="dropbtn">Validation</a>
+                        <div class="dropdown-content">
+			    <a href="https://forms.gle/bWAovoGzvUBDyaFF6" target="_blank" rel="noopener noreferrer">Web forms</a>
+			    <a href="/validation-use-cases.html">Use cases</a>
+                            <a href="/validation-data-ingestion.html">Data / Ingestion</a>
+                            <a href="/validation-data-processing.html">Processing / ML</a>
+                            <a href="/validation-ai-ethics.html">AI Ethics</a>
+                            <a href="/validation-hub-services.html">FAIRiCUBE Hub Services</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="/docs.html" class="dropbtn">Docs</a>
+                        <div class="dropdown-content">
+                            <a href="https://fairicube.nilu.no/" target="_blank" rel="noopener noreferrer">Project website</a>
+                            <a href="https://fairicube.readthedocs.io/" target="_blank" rel="noopener noreferrer">Digital Library</a>
+                            <a href="https://fairicube-kb.epsilon-italia.it/" target="_blank" rel="noopener noreferrer">Query Tool</a>
+                            <a href="https://github.com/FAIRiCUBE" target="_blank" rel="noopener noreferrer">GitHub project</a>
+                            <a href="https://zenodo.org/communities/fairicube/records?q=&f=resource_type%3Apublication&l=list&p=1&s=10&sort=newest" target="_blank" rel="noopener noreferrer">Reports @ Zenodo</a>
+                            <a href="https://fic-chatbot-v2-1061322294515.us-central1.run.app" target="_blank" rel="noopener noreferrer">Chatbot</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logo-search">
+                <form action="https://cse.google.com/cse" method="get" target="_blank" rel="noopener noreferrer">
+                    <input type="hidden" name="cx" value="47f51a6f005bd4f4a">
+                    <input type="text" name="q" placeholder="Search..." class="search-box">
+                    <button type="submit" class="search-button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </header>
+
+
+        <div class="text-center">
+            <h1 class="hero-title">FAIRiCUBE-Hub</h1>
+            <h2 class="hero-subtitle">The Gridded GeoData Working Environment</h2>
+        </div>
+    </div>
+</section>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper" id="main-content">
+        <h1 class="cards-page-title">Validation of Data and Data Ingestion</h1>
+
+<div class="paragraph">
+<p>
+The process of ingesting data is required for the effective use of any data resource under FAIRiCUBE. This process varies depending on the nature of the data involved. FAIRiCUBE-specific data undergoes a careful ingestion process into either rasdaman data cubes or EOX systems, depending on what they need.
+</p>
+
+<p>
+Specific attention is paid to ensuring the FAIR principles (Findable, Accessible, Interoperable, and Reusable) throughout.
+</p>
+
+<p>
+Ingestion validation (including data pre-processing) is an initial part of the User Case implementation.
+</p>
+
+<img src="/images/validation-data-ingestion.png" alt="Validation workflow" />
+</div>
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Process</strong></th>
+      <th><strong>Check type</strong></th>
+      <th><strong>Characteristic</strong></th>
+      <th><strong>Description</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Data Validation for Ingestion</td>
+      <td>Data validation checks</td>
+      <td>Duplicates</td>
+      <td>Check for duplicate entries.</td>
+    </tr>
+    <tr>
+      <td>Date overlap</td>
+      <td>Check for overlaps in the date column, i.e., repeated dates with different values (only for timeseries).</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Date gaps</td>
+      <td>Check for missing dates between start and end date (only for timeseries).</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>No data values</td>
+      <td>Verification of the correct use of no data.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Value types</td>
+      <td>Check if data types are correct (string, integer, float, datetime format).</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Value encoding</td>
+      <td>Check if the encoding of the data is correct (e.g., character encoding is utf-8; point (.) is used as decimal separator).</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Statistical Comparison of Characteristics with Source Dataset</td>
+      <td>Completeness</td>
+      <td>Calculate and evaluate the ratio of not-NULL values.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Count of distinctive values</td>
+      <td>Count and evaluate the number of distinct values in the dataset.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Ratio of the most frequent value</td>
+      <td>Determine the number of occurrences for the most frequently repeated value, normalized by the batch size.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Maximum</td>
+      <td>Maximum value of the dataset</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Mean</td>
+      <td>Mean value of the dataset</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Minimum</td>
+      <td>Minimum value of the dataset</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Standard deviation</td>
+      <td>Standard deviation of the dataset</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Number of records</td>
+      <td>Number of rows in the dataset (e.g., number of polygons)</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Date range</td>
+      <td>Start and end date (only for timeseries)</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Spatial Characteristic Comparison with Source Dataset</td>
+      <td>Grid boundaries</td>
+      <td>Top-left and bottom-right coordinates (only for gridded datasets)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Data completeness</td>
+      <td>Verify data set is complete (total area, total number of features or pixel)</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Projection/CRS</td>
+      <td>Verify correct use of the projection/CRS.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Pixel size</td>
+      <td>Verify that the pixel size is correct</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Number of bands</td>
+      <td>Verify all channels have been transmitted correctly.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Number of attributes</td>
+      <td>Verify all attributes of the table or vector dataset have been transmitted correctly.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Datatype</td>
+      <td>Check if the data type is OK.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Data format</td>
+      <td>Check if the ingested data follows the desired standard format (e.g., for raster, cloud optimized Geo Tiff)</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Centre coordinates and total area</td>
+      <td>For vector data, check if centre coordinates of polygons match (to find shifted polygons or duplicate polygons)</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/%20/"></data>
+
+  <div class="container">
+
+    <h2 class="footer-heading">FAIRiCUBE Hub</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name"></li><li><a class="u-email" href="mailto:fairicube@nilu.no">fairicube@nilu.no</a></li><li><img src="/images/fairicube_logo_transparent_lr.png" alt="Datacubes Catalog"></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list footer-links"><li><a href="https://github.com/FAIRiCUBE"><svg class="svg-icon"><use xlink:href="assets/minima-social-icons.svg#github"></use></svg> <span class="username">FAIRiCUBE</span></a></li><li><a href="https://www.twitter.com/FAIRiCUBE"><svg class="svg-icon"><use xlink:href="assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">FAIRiCUBE</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R.  (Findable, Accessible, Interoperable, Reusable) datacubes. Our goal is to empower researchers, data scientists, and industry experts with standardized,  analysis-ready datacubes that are fully compliant with F.A.I.R. principles.</p>
+        <img src="/images/Funded_by_the_EU.png" alt="Funded by the EU" style="width: 50%"/>
+        <p>This project has received funding from the Horizon Europe programme under grant agreement No 101059238.</p>
+      </div>
+
+    </div>
+
+    <p class="credits">
+      <i>
+        Created in project EU <a class="footer-links" href="https://fairicube.eu">FAIRiCUBE</a>,
+        implemented by <a class="footer-links" href="https://l-sis.org">Constructor University L-SIS research
+        group</a>.
+      </i>
+    </p>
+  </div>
+
+</footer>
+</body>
+
+</html>
